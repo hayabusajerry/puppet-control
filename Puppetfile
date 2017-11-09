@@ -9,16 +9,6 @@ mod "puppetlabs/java",        '1.6.0'
 mod "puppetlabs/selinux",     '0.8.0'
 mod "garethr/docker",         '5.3.0"
 
-# Modules from Git
-# Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
-#mod 'apache',
-#  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
-#  :commit => '83401079053dca11d61945bd9beef9ecf7576cbf'
-
-#mod 'apache',
-#  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
-#  :branch => 'docs_experiment'
-
 mod 'ssh',
   :git => 'https://github.com/hayabusajerry/puppet-ssh.git',
   :ref => 'master'

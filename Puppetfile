@@ -8,8 +8,8 @@ mod "puppetlabs/concat",      '2.1.0'
 mod "puppetlabs/java",        '1.6.0'
 mod "puppet/selinux",         '0.8.0'
 mod "garethr/docker",         '5.3.0'
-mod "puppetlabs/apt"          "2.4.0"
-mod "stahnma/epel"            "1.3.0"
+mod "puppetlabs/apt"          '2.4.0'
+mod "stahnma/epel"            '1.3.0'
 
 mod 'ssh',
   :git => 'https://github.com/hayabusajerry/puppet-ssh.git',

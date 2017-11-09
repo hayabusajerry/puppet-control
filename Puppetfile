@@ -21,10 +21,10 @@ mod 'ntp',
 
 mod 'role',
   :git => 'https://github.com/hayabusajerry/puppet-role.git',
-  :ref => 'development'
+  :ref => 'master'
 
 mod 'profile',
   :git => 'https://github.com/hayabusajerry/puppet-profile.git',
-  :ref => 'development'
+  :ref => 'master'
 
 

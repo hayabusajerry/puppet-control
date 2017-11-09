@@ -8,7 +8,7 @@ mod "puppetlabs/concat",      '2.1.0'
 mod "puppetlabs/java",        '1.6.0'
 
 # Modules from Git
-# Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
+# Examples: https://github.com/puppetlabs/r10k/blob/production/doc/puppetfile.mkd#examples
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :commit => '83401079053dca11d61945bd9beef9ecf7576cbf'
@@ -20,18 +20,18 @@ mod "puppetlabs/java",        '1.6.0'
 
 mod 'ssh',
   :git => 'https://github.com/hayabusajerry/puppet-ssh.git',
-  :ref => 'master'
+  :ref => 'production'
 
 mod 'ntp',
   :git => 'https://github.com/hayabusajerry/puppet-ntp.git',
-  :ref => 'master'
+  :ref => 'production'
 
 mod 'role',
   :git => 'https://github.com/hayabusajerry/puppet-role.git',
-  :ref => 'master'
+  :ref => 'production'
 
 mod 'profile',
   :git => 'https://github.com/hayabusajerry/puppet-profile.git',
-  :ref => 'master'
+  :ref => 'production'
 
 

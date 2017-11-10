@@ -6,12 +6,12 @@ profile::base::ntp_servers:
   - 3.ubunut.pool.ntp.org
 profile::apache::default_vhost: false
 profile::apache::apache_vhost_servers: {
-  'tthomsen1.mylabserver.com': {
+  'jerrycarter1.mylabserver.com': {
     port: 80,
-    docroot: '/var/www/tthomsen1'
+    docroot: '/var/www/jerrycarter1'
   },
-  'tthomsen1b.mylabserver.com': {
+  'jerrycarter1b.mylabserver.com': {
     port: 80,
-    docroot: '/var/www/tthomsen1b'
+    docroot: '/var/www/jerrycarter1b'
   }
 }

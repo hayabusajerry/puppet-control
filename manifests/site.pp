@@ -24,15 +24,15 @@ File { backup => false }
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 
-node 'tthomsen4' {
-  notify { 'This matches tthomsen4!!!!': }
+node 'jerrycarter4' {
+  notify { 'This matches jerrycarter4!!!!': }
 }
 
-#node /^tthomsen4/ {
+#node /^jerrycarter4/ {
 #  notify { "This is a node definition using regex!!!!": }
 #}
 
-node 'tthomsen1.mylabserver.com' {
+node 'jerrycarter1.mylabserver.com' {
   include pe_repo::platform::el_6_x86_64
   include pe_repo::platform::ubuntu_1204_amd64
 }

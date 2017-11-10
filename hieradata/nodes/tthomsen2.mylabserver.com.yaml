@@ -1,8 +1,0 @@
----
-profile::nginx::vhosts: 
-  - 'fqdn': 'jerrycarter2.mylabserver.com'
-    'port': 80
-    'server_aliases': ''
-  - 'fqdn': 'jerrycarter2b.mylabserver.com'
-    'port': 80
-    'server_aliases': 'jerrycarter2b1.mylabserver.com'

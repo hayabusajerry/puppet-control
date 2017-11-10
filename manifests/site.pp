@@ -28,9 +28,9 @@ node 'jerrycarter4' {
   notify { 'This matches jerrycarter4!!!!': }
 }
 
-#node /^jerrycarter4/ {
-#  notify { "This is a node definition using regex!!!!": }
-#}
+node /^jerrycarter4/ {
+  notify { "This is a node definition using regex!!!!": }
+}
 
 node 'jerrycarter1.mylabserver.com' {
   include pe_repo::platform::el_6_x86_64
